@@ -1,0 +1,22 @@
+{
+  "name": "sendmail-worker",
+  "version": "1.0.0",
+  "description": "BIST League backend sendmail worker",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bistleague/sendmail-worker.git"
+  },
+  "author": "Muhammad Aditya Hilmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bistleague/sendmail-worker/issues"
+  },
+  "homepage": "https://github.com/bistleague/sendmail-worker#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1"
+  }
+}
