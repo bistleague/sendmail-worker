@@ -82,7 +82,9 @@ exports.sendMailReceived = (data, context) => {
     }
 
     // Send mail
-    sgMail.send(send);
+    sgMail.send(send)
+        .then(() => console.log('Mail sent successfully'))
+        .catch(error => console.error(error.toString()));
 
     console.log("Sendmail request received");
 };
